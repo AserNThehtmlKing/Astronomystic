@@ -1,0 +1,111 @@
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url(call.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1{
+    color: #fff;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo{
+    width: 175px;
+    cursor: pointer;
+  }
+  
+  .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  
+
+  
+
+  
+
+  
+
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+  }
+
+  @media(max-width: 700px){
+    .row{
+      flex-direction: column;
+    }
+  }
+
